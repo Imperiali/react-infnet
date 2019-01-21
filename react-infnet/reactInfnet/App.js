@@ -7,7 +7,7 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import {Button, Platform, StyleSheet, Text, View, Alert, Image} from 'react-native';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -21,9 +21,19 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
+        <Text style={styles.welcome}>App React Brabo</Text>
+        <Image style={{width: 100, height: 100}} source={{uri:'https://static.fnac-static.com/multimedia/Images/PT/NR/dd/0e/0b/724701/1540-1/tsp20160815154524/Foca-Animais-Selvagens.jpg'}}/>
+        <Button title={"Botão"} onPress={() => {
+          Alert.alert(
+              "Voce clicou!",
+              "O botão funcionou como esperado!",
+              [
+                {text: "Irado!", onPress: () => console.log("Irado Clicado")},
+                {text: "Mé!", onPress: () => console.log("mé Clicado")}
+              ]
+          )
+        }}
+        ></Button>
       </View>
     );
   }
