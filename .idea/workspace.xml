@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="432fbdd0-0edd-459e-8118-432ca04f752b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/react-infnet/README.md" beforeDir="false" />
-    </list>
+    <list default="true" id="432fbdd0-0edd-459e-8118-432ca04f752b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,7 +15,7 @@
     <leaf />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/react-infnet" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -55,6 +53,7 @@
             <path>
               <item name="react-radix" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-radix" type="462c0819:PsiDirectoryNode" />
+              <item name="react-infnet" type="462c0819:PsiDirectoryNode" />
               <item name="reactInfnet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -70,6 +69,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/react-infnet" />
       <recent name="$PROJECT_DIR$/reactInfnet" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -98,22 +98,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548069704340</updated>
-      <workItem from="1548069708667" duration="2321000" />
+      <workItem from="1548069708667" duration="2639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2321000" />
+    <option name="totallyTimeSpent" value="2639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="752" y="23" width="1168" height="976" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2999128" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2999128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32918552" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32918552" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32918552" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
