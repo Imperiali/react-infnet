@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {View, Text, Button} from 'react-native';
 import {createAppContainer, createStackNavigator, createBottomTabNavigator, createDrawerNavigator} from 'react-navigation';
+import { DrawerActions } from 'react-navigation-drawer';
+import Icon from "react-native-vector-icons/MaterialIcons";
 
 import Icons from "./Icons";
 import Maps from "./Maps";
@@ -16,21 +18,26 @@ import Camera from "./Camera";
 // --- Stack1
 
 const Inicial = (props) => (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-        <Button title="Clicae" onPress={() => props.navigation.navigate("Stack1")} />
+    <View style={{backgroundColor:"black", flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <Button color={"red"} title="Clicae" onPress={() => props.navigation.dispatch(DrawerActions.toggleDrawer())
+        } />
     </View>
 );
 
 // Configurando Tab Navigator
 const tabsNavigationConfig = {
+    "Maps": {
+        screen: Maps,
+        navigationOptions:{
+            tabBarIcon: <Icon name="android"/>
+
+        }
+    },
     "Inicial": {
         screen: Inicial
     },
     "Icons": {
         screen: Icons
-    },
-    "Maps": {
-        screen: Maps
     },
     "Camera": {
         screen: Camera
@@ -59,6 +66,8 @@ const stackNavigationConfig = {
 
 const StackNavigator = createStackNavigator(stackNavigationConfig);
 
+const DrawerNavigator = createDrawerNavigator(stackNavigationConfig);
 
 
-export default createAppContainer(StackNavigator);
+
+export default createAppContainer(DrawerNavigator);

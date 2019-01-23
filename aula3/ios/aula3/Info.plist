@@ -71,5 +71,17 @@
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
 	</array>
+
+	<key>NSCameraUsageDescription</key>
+    <string>Libera Geral</string>
+
+    <!-- Include this only if you are planning to use the camera roll -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Libera geral</string>
+
+    <!-- Include this only if you are planning to use the microphone for video recording -->
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Entao libera</string>
+
 </dict>
 </plist>
